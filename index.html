@@ -1,12 +1,70 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Text Transformation</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center; 
+      margin-top: 50px; 
+      background-color: #f4f4f4; 
+    }
+
+    img {
+      display: block; 
+      margin: 0 auto 20px auto; 
+      max-width: 200px; 
+    }
+
+    form {
+      margin-bottom: 20px; 
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+
+    input[type="button"] {
+      padding: 10px 20px;
+      background-color: #4CAF50; 
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="button"]:hover {
+      background-color: #3e8e41; 
+    }
+
+    p#output {
+      font-size: 1.2em;
+      font-weight: bold;
+      color: #333;
+      padding: 10px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      margin: 20px auto; 
+      max-width: 600px; 
+    }
+  </style>
+</head>
 <body>
-<script src="zeroro.js"></script>
-<form>Enter your text:<input type="text" id="fname">
 
-<input type="button" onclick="myFunction()" value="Find out"></form>
+  <img src="zero-or-o.png" alt="zer0-or-O">
 
-<p id="output"></p>
+  <form>
+    Enter your text:
+    <input type="text" id="fname">
+    <input type="button" onclick="myFunction()" value="Find out">
+  </form>
+
+  <p id="output"></p>
+
+  <script src="zeroro.js"></script>
 
 </body>
 </html>
